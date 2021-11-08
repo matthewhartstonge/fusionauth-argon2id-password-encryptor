@@ -6,13 +6,27 @@
 
     <groupId>nz.mykro</groupId>
     <artifactId>fusionauth-argon2id-password-encryptor</artifactId>
+    <name>FusionAuth Argon2id Password Encryptor</name>
     <version>0.1.0</version>
+    <packaging>jar</packaging>
+
+    <developers>
+        <developer>
+            <name>Matthew Hartstonge</name>
+            <email>matt@mykro.co.nz</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:ssh://github.com:matthewhartstonge/fusionauth-argon2id-password-encryptor</connection>
+        <url>https://github.com/matthewhartstonge/fusionauth-argon2id-password-encryptor</url>
+    </scm>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
-
 
     <dependencies>
         <dependency>
